@@ -22,7 +22,6 @@ public class RestTemplateImplementation<T>{
 			return response;
 		} catch (Exception e) {
 			throw e;
-		}
-					
+		}					
 	}	
 }

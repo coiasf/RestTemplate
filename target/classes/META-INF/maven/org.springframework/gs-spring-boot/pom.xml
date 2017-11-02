@@ -20,7 +20,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-tx</artifactId>			
+			<artifactId>spring-tx</artifactId>
 		</dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -58,7 +58,7 @@
 		
 		<dependency>
 			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>			
+			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 			
 		<dependency>

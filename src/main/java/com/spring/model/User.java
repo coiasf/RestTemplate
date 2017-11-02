@@ -1,15 +1,31 @@
 package com.spring.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Users")
 public class User {
-	
-	private String name;
+	@Id
+	@Column(name="id")
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
+	
+	private String name;	
+	
+	public User(String name) {
+		this.name = name;
+	}
 	
 	public User() {
 		
 	}
-	public User(String s,long id) {
-		this.name = s;
+	public User(String name,long id) {
+		this.name = name;
 		this.id = id;
 	}
 	public String getName() {

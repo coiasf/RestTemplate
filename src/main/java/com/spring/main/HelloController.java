@@ -3,6 +3,7 @@ package com.spring.main;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -34,12 +35,130 @@ import com.spring.restLayer.Rest;
 @RestController
 public class HelloController {
 	
+	
+	
 	private final ArrayList<City> cities = new ArrayList<City>() {{
 		add(new City("Rome",1,"0076765"));
     	add(new City("Venice",2,"0076765"));
     	add(new City("London",3,"0076765"));
     	add(new City("Bucharest",4,"0076765"));
     	add(new City("Berlin",5,"0076765"));		
+	}};	
+	
+	private final ArrayList<User> users = new ArrayList<User>() {{
+		add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	add(new User("Rome"));
+    	add(new User("Venice"));
+    	add(new User("London"));
+    	add(new User("Bucharest"));
+    	add(new User("Berlin"));
+    	
+    	
 	}};	
 	
 	/* GET call that retrieves an User object. */
@@ -131,11 +250,50 @@ public class HelloController {
     }
     
     @RequestMapping(value = "postCities",method = RequestMethod.POST, produces = "application/json")
-    public ArrayList<City> testUserPost(@RequestBody ArrayList<City> cities) {
+    public ArrayList<City> testCityPost(@RequestBody ArrayList<City> cities) {
     	ArrayList<City> finalCities = new ArrayList<City>();
     	for (City city:cities) {
     		finalCities.add(city);    		
     	}
 		return finalCities;
+    }
+    
+    /* GET call that makes a post request that creates and then  retrieves and object of type User */
+    @RequestMapping(value = "testThreadUsers",method = RequestMethod.GET, produces = "application/json")
+    public wrapper<ArrayList<User>> testThreadUsers() {
+    	Rest<ArrayList<User>>  restApi =  new Rest<ArrayList<User>>(this.users, null);
+    	ResponseWrapper<ArrayList> resp;
+		try {
+			long start = System.currentTimeMillis();	    	
+	    	long time = System.currentTimeMillis() - start;
+	    	
+			resp = restApi.post("http://localhost:8080/postThreadUser",ArrayList.class);
+			wrapper<ArrayList<User>> wrap = new wrapper<ArrayList<User>>("ceva cu date", resp.getResponse());			
+			return wrap;
+		} catch (Exception e) {
+			//log the exception message in the console
+			System.out.println(e.getMessage());
+			return null;
+		}		
+    }
+    //@RequestBody ArrayList<User> users
+    @RequestMapping(value = "postThreadUser",method = RequestMethod.POST, produces = "application/json")
+    public ArrayList<User> testThreadUser(@RequestBody ArrayList<User> users) {
+    	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");    	
+    	UserImplementation userBean = context.getBean(UserImplementation.class);
+ 
+    	try {			
+			long start = System.currentTimeMillis();
+			//ArrayList<User> finalUsers = userBean.saveNormal(users);
+			ArrayList<User> finalUsers = userBean.saveBulk(users);
+			context.close();
+			long time = System.currentTimeMillis() - start;
+			System.out.println(time);
+			return finalUsers;    			
+		} catch (Exception e) {
+			context.close();
+			System.out.println(e.getMessage());			
+			return null;
+		}		
     }
 }
