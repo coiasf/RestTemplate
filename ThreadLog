@@ -1,0 +1,564 @@
+2017-11-02 12:13:35.526  INFO 5516 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-02 12:13:35.526  INFO 5516 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-02 12:13:35.529  INFO 5516 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 3 ms
+2017-11-02 12:13:35.548  INFO 5516 --- [nio-8080-exec-5] o.s.c.s.ClassPathXmlApplicationContext   : Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14ccb82f: startup date [Thu Nov 02 12:13:35 EET 2017]; root of context hierarchy
+2017-11-02 12:13:35.548  INFO 5516 --- [nio-8080-exec-5] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [spring.xml]
+2017-11-02 12:13:35.557  INFO 5516 --- [nio-8080-exec-5] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2017-11-02 12:13:35.567  INFO 5516 --- [nio-8080-exec-5] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Thread adds user com.spring.model.User@e9e5957with index676 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@44a7eb7dwith index674 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@7a67a4a6with index675 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@681a1b1with index680 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@145ff726with index669 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@28c3ecb8with index670 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@1c058a2cwith index679 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@57266d37with index682 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@29961104with index684 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@3ae524ccwith index683 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@7ae3b9e3with index686 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@746df560with index685 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@4bc9f068with index677 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@a45f8bdwith index671 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@4588a007with index681 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@563a856with index687 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6e12a124with index688 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@39664197with index689 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@1636e210with index667 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@3bc8b505with index690 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@46c58eb2with index678 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@1636e210with index667from stack
+Queu size20
+--------------------------------------------------------
+Thread gets user com.spring.model.User@e9e5957with index676from stack
+Queu size19
+--------------------------------------------------------
+Thread gets user com.spring.model.User@44a7eb7dwith index674from stack
+Queu size18
+--------------------------------------------------------
+Thread gets user com.spring.model.User@7a67a4a6with index675from stack
+Queu size17
+--------------------------------------------------------
+Thread gets user com.spring.model.User@681a1b1with index680from stack
+Queu size16
+--------------------------------------------------------
+Thread gets user com.spring.model.User@145ff726with index669from stack
+Queu size15
+--------------------------------------------------------
+Thread gets user com.spring.model.User@28c3ecb8with index670from stack
+Queu size14
+--------------------------------------------------------
+Thread gets user com.spring.model.User@57266d37with index682from stack
+Queu size13
+--------------------------------------------------------
+Thread gets user com.spring.model.User@1c058a2cwith index679from stack
+Queu size12
+--------------------------------------------------------
+Thread gets user com.spring.model.User@29961104with index684from stack
+Queu size11
+--------------------------------------------------------
+Thread gets user com.spring.model.User@3ae524ccwith index683from stack
+Queu size10
+--------------------------------------------------------
+Thread gets user com.spring.model.User@7ae3b9e3with index686from stack
+Queu size9
+--------------------------------------------------------
+Thread gets user com.spring.model.User@746df560with index685from stack
+Queu size8
+--------------------------------------------------------
+Thread gets user com.spring.model.User@4bc9f068with index677from stack
+Queu size7
+--------------------------------------------------------
+Thread gets user com.spring.model.User@a45f8bdwith index671from stack
+Queu size6
+--------------------------------------------------------
+Thread gets user com.spring.model.User@4588a007with index681from stack
+Queu size5
+--------------------------------------------------------
+Thread gets user com.spring.model.User@563a856with index687from stack
+Queu size4
+--------------------------------------------------------
+Thread gets user com.spring.model.User@39664197with index689from stack
+Queu size3
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6e12a124with index688from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@3bc8b505with index690from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@46c58eb2with index678from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@7a7c75dcwith index691 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@7a7c75dcwith index691from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@3d78619ewith index693 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@29031624with index692 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@3d78619ewith index693from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@29031624with index692from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@1581e930with index668 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@1581e930with index668from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@49344e33with index673 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@38f6194ewith index700 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@690e7c75with index694 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6c02e423with index696 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6bd36ba1with index698 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@7d3bf93dwith index697 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2af426f0with index699 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@27563461with index695 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6d0d4c12with index701 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@56fe214awith index703 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@5dfebcccwith index702 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@1cfd050bwith index704 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@56fe214awith index703from stack
+Queu size11
+--------------------------------------------------------
+Thread gets user com.spring.model.User@49344e33with index673from stack
+Queu size10
+--------------------------------------------------------
+Thread gets user com.spring.model.User@38f6194ewith index700from stack
+Queu size9
+--------------------------------------------------------
+Thread gets user com.spring.model.User@690e7c75with index694from stack
+Queu size8
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2af426f0with index699from stack
+Queu size7
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6c02e423with index696from stack
+Queu size6
+--------------------------------------------------------
+Thread gets user com.spring.model.User@27563461with index695from stack
+Queu size5
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6d0d4c12with index701from stack
+Queu size4
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6bd36ba1with index698from stack
+Queu size3
+--------------------------------------------------------
+Thread gets user com.spring.model.User@7d3bf93dwith index697from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@5dfebcccwith index702from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@1cfd050bwith index704from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6d241154with index705 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6d241154with index705from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@583f63b1with index706 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@583f63b1with index706from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@301577a9with index672 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@301577a9with index672from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@518eec40with index707 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@518eec40with index707from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@68337fawith index709 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@3654306with index708 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@68337fawith index709from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@3654306with index708from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@bfbebbewith index710 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@bfbebbewith index710from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@12858193with index711 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@12858193with index711from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@38edc303with index714 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@38edc303with index714from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@715313c4with index713 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@eb232bawith index712 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@715313c4with index713from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@eb232bawith index712from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@38be8da5with index715 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@38be8da5with index715from stack
+Thread adds user com.spring.model.User@6878d5c6with index716 to stack
+--------------------------------------------------------
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6878d5c6with index716from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6128554awith index717 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@60d5511bwith index720 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@4ba8416ewith index718 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6128554awith index717from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@60d5511bwith index720from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@4ba8416ewith index718from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@133f7beewith index719 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@133f7beewith index719from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6e0c48cfwith index721 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6e0c48cfwith index721from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6d218f9fwith index724 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@20fc16eewith index722 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6d218f9fwith index724from stack
+Thread adds user com.spring.model.User@7da0773awith index723 to stack
+--------------------------------------------------------
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@20fc16eewith index722from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@7da0773awith index723from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@319da7a2with index725 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@b186b3cwith index728 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@4dd07148with index727 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@319da7a2with index725from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@b186b3cwith index728from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@4dd07148with index727from stack
+Thread adds user com.spring.model.User@27908238with index730 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6f520e6ewith index726 to stack
+--------------------------------------------------------
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6f520e6ewith index726from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@27908238with index730from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@193cf0d5with index733 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2bddc22ewith index735 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@51074ab3with index734 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@562bca75with index736 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@193cf0d5with index733from stack
+Queu size3
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2bddc22ewith index735from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@51074ab3with index734from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@562bca75with index736from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@5c087b14with index739 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@c0c1199with index737 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@7a720632with index738 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@5c087b14with index739from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@c0c1199with index737from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@7a720632with index738from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@295282ebwith index740 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@295282ebwith index740from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@796bed07with index742 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@796bed07with index742from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@11e912f0with index741 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@11e912f0with index741from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2ad99034with index743 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2ad99034with index743from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@75bef5d6with index744 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6a49dbd3with index745 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@34f77bb6with index746 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@75bef5d6with index744from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@34f77bb6with index746from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6a49dbd3with index745from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@594a37b9with index748 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@14228c81with index747 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2bff5891with index749 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@594a37b9with index748from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@14228c81with index747from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2bff5891with index749from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@b60fe47with index750 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@b60fe47with index750from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@157cceeawith index754 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@29f691abwith index751 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@4f37d8ebwith index753 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@19e0813cwith index752 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@157cceeawith index754from stack
+Queu size3
+--------------------------------------------------------
+Thread gets user com.spring.model.User@29f691abwith index751from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@4f37d8ebwith index753from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@19e0813cwith index752from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@5863ead0with index755 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@5863ead0with index755from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@3121779cwith index756 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@bde9ab9with index759 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@39e8a7f1with index757 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@5df8c005with index758 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@562b9249with index761 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@3121779cwith index756from stack
+Queu size4
+--------------------------------------------------------
+Thread gets user com.spring.model.User@39e8a7f1with index757from stack
+Queu size3
+--------------------------------------------------------
+Thread gets user com.spring.model.User@bde9ab9with index759from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@5df8c005with index758from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@562b9249with index761from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@190b62edwith index760 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@70a6b396with index762 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@190b62edwith index760from stack
+Thread adds user com.spring.model.User@5eac90e1with index763 to stack
+--------------------------------------------------------
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@70a6b396with index762from stack
+Queu size1
+Thread adds user com.spring.model.User@5efd1d31with index764 to stack
+--------------------------------------------------------
+--------------------------------------------------------
+Thread gets user com.spring.model.User@5eac90e1with index763from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@5efd1d31with index764from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@52f1e91fwith index729 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@65aa273fwith index731 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@3a3ca47cwith index732 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@754577b9with index765 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@52f1e91fwith index729from stack
+Queu size3
+--------------------------------------------------------
+Thread gets user com.spring.model.User@65aa273fwith index731from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@3a3ca47cwith index732from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@754577b9with index765from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@6ffc0a81with index773 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2aa1d5e6with index774 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@5c2ef37fwith index772 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@6ffc0a81with index773from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2aa1d5e6with index774from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@5c2ef37fwith index772from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@263cf4d5with index770 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@58dd0b31with index769 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@7514ae1awith index775 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2b35c1a5with index768 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@4959b50awith index767 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@263cf4d5with index770from stack
+Queu size4
+--------------------------------------------------------
+Thread gets user com.spring.model.User@58dd0b31with index769from stack
+Queu size3
+--------------------------------------------------------
+Thread gets user com.spring.model.User@7514ae1awith index775from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2b35c1a5with index768from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@4959b50awith index767from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2acd804with index776 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2acd804with index776from stack
+Queu size0
+--------------------------------------------------------
+Thread adds user com.spring.model.User@1fd92a6bwith index777 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2060861dwith index771 to stack
+--------------------------------------------------------
+Thread adds user com.spring.model.User@2f11fb60with index766 to stack
+--------------------------------------------------------
+Thread gets user com.spring.model.User@1fd92a6bwith index777from stack
+Queu size2
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2f11fb60with index766from stack
+Queu size1
+--------------------------------------------------------
+Thread gets user com.spring.model.User@2060861dwith index771from stack
+Queu size0
+--------------------------------------------------------
+2017-11-02 12:13:36.766  INFO 5516 --- [nio-8080-exec-5] o.s.c.s.ClassPathXmlApplicationContext   : Closing org.springframework.context.support.ClassPathXmlApplicationContext@14ccb82f: startup date [Thu Nov 02 12:13:35 EET 2017]; root of context hierarchy
+1167
